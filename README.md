@@ -2,11 +2,11 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<title>welikecats</title>
-</head>
+	<head>
+		<title>welikecats</title>
+	</head>
 
-<body>
-we also like photography, but mostly cats
-</body>
+	<body>
+		we also like photography, but mostly cats
+	</body>
 </html>
