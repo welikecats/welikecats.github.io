@@ -1,7 +1,19 @@
+* {
+	font-family: helvetica;
+	font-size: 20pp;
+}
+
+
+
 h1 {
 	color: blue;
 }
 
 h2 {
-	color: #EE8234;
+	color: #800080;
+}
+
+p { 
+	color: #804040;
+
 }
