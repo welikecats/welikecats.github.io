@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>welikecats</title>
+		<title>hello</title>
 	</head>
 
 	<body>
