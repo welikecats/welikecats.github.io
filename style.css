@@ -6,7 +6,7 @@ body {
 
 
 * {
-	font-size: 20pp;
+	font-size: 20px;
 	color: #804040;
 }
 
@@ -31,10 +31,11 @@ input {
 h1 {
 	text-align: center;
 	font: arial;
+	font-size: 40px;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 28px;
 	text-align: center;
 	color: #804040;
 	
@@ -56,7 +57,9 @@ div.title {
 	background-size: cover;
 	margin: 0 auto;
 	width: 100%;
-
+	border: solid black;
+	border-width: 20px;
+	position: top left;
 }
 
 .contact_form {
@@ -66,9 +69,10 @@ div.title {
 	margin: 10px;
 }
 ul.navigation_bar {
-      padding: 10px;
+      padding: 50px 0px 20px 0px;
       background: black;
       text-align: center;
+
 }
 ul.navigation_bar li {
       display: inline;
