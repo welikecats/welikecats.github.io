@@ -90,7 +90,13 @@ ul.navigation_bar {
 ul.navigation_bar li {
       display: inline;
       padding: 0px 10px 0px 10px;
+      color: #804040;
     }
+
+ul.navigation_bar li:hover {
+	background: #FF1493;
+}
+
 .input {
 	padding: 10px 0px 10px 0px;
 	margin-top: 20px;
@@ -105,4 +111,18 @@ ul.navigation_bar li {
 	border-width: 5px;
 	border-radius: 30%;
 	width: 150px;
+}
+
+.about_title {
+	font-family: 'Lobster', cursive;
+	color: #804040;
+	background: black;
+	background-size: cover;
+	margin: 0 auto;
+	border: solid black;
+	border-width: 20px;
+	position: top left;
+	padding: 0px 0px 20px 0px;
+	margin-top: 0;
+
 }
