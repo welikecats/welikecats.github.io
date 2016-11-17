@@ -1,7 +1,9 @@
 body {
-	background: #800080;
+	background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTe8Ok3DIV050G-rlmc_yf3jaOXkfsaS8LlfQ9RCQw4QwzlDk5t");
+	background-position: center;
+	background-size: cover;
 	font-family: 'Marcellus SC', serif;
-	
+	padding: 0;
 	margin: 0;
 }
 
@@ -11,12 +13,13 @@ body {
 	color: white;
 }
 
+a {
+	font-family: 'Marcellus SC', serif;
+
+}
 
 img {
 	margin: 20px;
-	border: 5px solid;
-	border-radius: 50%;
-	border-color: #FFDF00;
 }
 
 input {
@@ -55,18 +58,10 @@ p {
 }
 
 div.title {
-	/*
-	background: url("https://pixabay.com/static/uploads/photo/2015/09/02/12/30/city-918480__180.jpg");
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	*/
 	font-family: 'Marcellus SC', serif;
-	background: #800080;
+	background: rgba(0,0,0, 0);
 	background-size: cover;
 	margin: 0 auto;
-	border: solid #80080;
-	border-width: 20px;
 	position: top left;
 	text-align: center;
 }
@@ -76,14 +71,16 @@ div.title {
 	bottom: 0px;
 	position: bottom;
 	margin: 10px;
+	color: white;
 
 }
 ul.navigation_bar {
 	  color: #804040;
       padding: 0px 0px 20px 0px;
-      background: #800080;
+      background: rgba(75, 0, 130, 0);
       text-align: center;
       margin-top: 0;
+      overflow: hidden;
 
 }
 ul.navigation_bar li {
@@ -93,12 +90,12 @@ ul.navigation_bar li {
     }
 
 ul.navigation_bar li:hover {
+	color: #FFDF00;
 	background: #FFDF00;
-	color: black;
 }
 
 ul.navigation_bar li:visited {
-	color: black;
+	color: white;
 }
 
 .input {
@@ -121,10 +118,10 @@ ul.navigation_bar li:visited {
 .subtitle {
 	font-family: 'Marcellus SC', serif;
 	color: white;
-	background: #800080;
+	background: rgba(75, 0, 130, 0);
 	background-size: cover;
 	margin: 0 auto;
-	border: solid #800080;
+	border: solid rgba(75, 0, 130, 0);
 	border-width: 20px;
 	text-align: left;
 	padding: 0px 0px 20px 0px;
@@ -135,3 +132,21 @@ ul.navigation_bar li:visited {
 	padding: 50px;
 
 }
+
+.dropdown {
+	background: rgba(75, 0, 130, 0);
+	color: white;
+	display: inline-block;
+	position: relative;
+}
+
+.dropbtn:hover {
+	background-color: #FFDF00;
+}
+
+.dropbtn {
+	background-color: rgba(75, 0, 130, 0.3);
+	color: white;
+	padding: 20px;
+}
+
