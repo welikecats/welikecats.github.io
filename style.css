@@ -112,9 +112,10 @@ ul.navigation_bar li:visited {
 #submit {
 	text-align: center;
 	background: #FFDF00;
-	border-width: 5px;
+	border-width: 2px;
 	border-radius: 30%;
 	width: 150px;
+	margin-top: 10px;
 }
 
 .subtitle {
