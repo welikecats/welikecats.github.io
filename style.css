@@ -1,5 +1,5 @@
 body {
-	background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTe8Ok3DIV050G-rlmc_yf3jaOXkfsaS8LlfQ9RCQw4QwzlDk5t");
+	background: black;
 	background-position: center;
 	background-size: cover;
 	font-family: 'Marcellus SC', serif;
@@ -28,6 +28,7 @@ input {
 	align-content: center;
 	float: bottom;
 	border: 2px solid white;
+	color: black;
 }
 
 h1 {
@@ -59,11 +60,12 @@ p {
 
 div.title {
 	font-family: 'Marcellus SC', serif;
-	background: rgba(0,0,0, 0);
-	background-size: cover;
-	margin: 0 auto;
+	background: black;
+	background-position: center;
+	margin: 50 auto;
 	position: top left;
 	text-align: center;
+	padding: 50;
 }
 
 .contact_form {
@@ -150,3 +152,63 @@ ul.navigation_bar li:visited {
 	padding: 20px;
 }
 
+img .twitter {
+	border: solid rgba(75, 0, 130, 0);
+	border-width: 10px;
+	border-radius: 50%;
+}
+
+img .olympicpic {
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.youtube {
+	text-align: center;
+	
+}
